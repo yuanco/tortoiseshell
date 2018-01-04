@@ -197,7 +197,7 @@ a {
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 470px) {
     .banner {
       height: 17rem;
       background-position: 20% 20%;
