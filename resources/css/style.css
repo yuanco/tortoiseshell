@@ -278,6 +278,9 @@ a {
       padding-top: 4rem;
     }
 
+    .info {
+      padding: 0 0.5rem;
+    }
     .copyright-info {
       display: none;
     }
