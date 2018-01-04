@@ -121,3 +121,44 @@ a {
   display: block;
   text-align: center;
 }
+
+.business {
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.business-info {
+  width: 35%;
+  padding-right: 5%;
+}
+
+.title {
+  width: 10rem;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 0.5rem 1.25rem;
+  background-color: cadetblue;
+}
+
+.info {
+  display: block;
+  padding-top: 1rem;
+  line-height: 1.4;
+}
+
+.footer {
+  margin-top: 5rem;
+  background-color: azure;
+}
+
+.copyright {
+  padding: 4rem 4rem;
+  display: flex;
+  align-items: center;
+}
+
+.copyright img {
+  height: 1.5rem;
+  padding-right: 1rem;
+}
