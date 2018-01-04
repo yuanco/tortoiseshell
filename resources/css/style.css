@@ -1,0 +1,123 @@
+body {
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+h1,
+h2 {
+  font-weight: bold;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.container-w {
+  max-width: 1032px;
+  margin: 0 auto;
+}
+
+.banner {
+  background: url("../img/glasses-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 30rem;
+}
+
+.header {
+  position: relative;
+  padding: 1rem 2rem;
+  top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: cadetblue;
+  color: white;
+}
+
+.company {
+  display: flex;
+  align-items: center;
+}
+
+.company img {
+  height: 1.5rem;
+  padding-right: 1rem;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+li a {
+  padding-left: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.slogan {
+  float: right;
+  background: white;
+  position: relative;
+  top: 10rem;
+  padding: 1.5rem 5rem;
+}
+
+.slogan h1 {
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+}
+
+.service {
+  height: 8rem;
+  max-width: 5rem;
+  padding: 0 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.service-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.service-image img {
+  max-width: 5rem;
+}
+
+.service-imag, .paper img {
+  max-width: 3.5rem;
+}
+
+.service-imag, .ruler, .truck img {
+  padding: 1rem;
+}
+
+
+.description {
+  display: block;
+  text-align: center;
+}
